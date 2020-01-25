@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Latitude vs Max Temperature</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Bring in our bootstrap stylesheet -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+     crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+     crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+     crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+     crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <div class="container" style="background-color: darkgray;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" id = "boxtittle" style="background-color: darkcyan;">Latitude</a>
+        <button class="navbar-toggler navar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+      <main>
+        <div class= "container">
+          <div class="row">
+            <div class= "col-md-5  col-md-7" >
+              <div class= "box">
+                <h3> Latitude vs. Max Temperature</h3>
+                <hr>
+                <img src = assets/Max_Temp_vs_Latitude20191207.png>
+                <p>
+                The weather becomes warmer as we approach to the equator, 0 deg latitude. In addition, the northem hemisphere is colder than the southem.
+                
+              </div>
+            
+            </div>
+            <div class= "col-md-5 col-md-5" >
+              <div class= "box">
+                <h4> Visualizations</h4>
+                <hr>
+                <div class="container">
+                  <div class="row" >
+                    <div class="col-6 ">
+                        <a href="maxtemp.html">   
+                        <img class="panel" src="assets/Max_Temp_vs_Latitude20191207.png" alt="Max Temperature Image">      
+                      </a>      
+                    </div>      
+                    <div class="col-6">      
+                      <a href="humidity.html">      
+                        <img class="panel" src="assets/Humidity_vs_Latitude20191207.png" alt="Humidity Graph">      
+                      </a>      
+                    </div>      
+                  </div>
+                  <div class="row" >      
+                    <div class="col-6">      
+                      <a href="cloudiness.html">
+                        <img class="panel" src="assets/Cloudiness_vs_Latitude20191207.png" alt="Cloudiness Graph">
+                      </a>      
+                    </div>      
+                    <div class="col-6">      
+                      <a href="windspeed.html">      
+                        <img class="panel" src="assets/Wind_Speed_vs_Latitude20191207.png" alt="Wind Speed Graph">      
+                      </a>      
+                    </div>  
+                  </div>   
+
+                </div>           
+ 
+              </div>            
+
+            </div>
+          </div>
+
+        </div>
+       
+      </main>
+
+      <footer class="page-footer font-small white">
+        <div class= "boxfooter" style = "background-color: #696969;" >
+            <div class="footer-copyright text-center">© 2020 Copyright: Marina Puig-de-Morales
+              <p>
+                  <i class="fas fa-envelope mr-3"></i> mpmarinkovic@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+ 
+    
+  </body>
+
+
+ 
+
+</html>
+

@@ -1,0 +1,84 @@
+#boxtittle {
+  height: 60px;
+  background-color: aqua;
+  width: 10%;
+  padding:10px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* body */
+body{
+
+  background-color: rgb(161, 43, 43);
+
+}
+
+h3 {
+  font-size: 40px;
+  color: darkcyan;
+  text-align: center;
+}
+h4 {
+  font-size: 25px;
+  color: darkcyan;
+  text-align: center;
+}
+
+img{
+
+  width:100% !important;
+
+  height:100% !important;
+
+}
+.active, .panel:hover{
+
+  border-color:white;
+
+  border-style: solid;
+
+  
+
+}
+
+.vizualization{
+
+  width:50% !important;
+
+  height:50% !important;
+
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar-nav li {
+  display: inline-block;
+  padding: 0px;
+  margin-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 0px;
+}
+
+.box {
+  margin-top : 10px;
+  margin-bottom : 40px;
+  padding: 10px;
+  color:black;
+  background: white;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
